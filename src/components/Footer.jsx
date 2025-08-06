@@ -44,9 +44,20 @@ const Footer = () => {
               </a>
             </li>
 
-            <li className="flex items-center gap-2">
-              <FaMapMarkerAlt className="text-yellow-400" /> Bangalore, India
-            </li>
+            <li className="flex items-start gap-2 text-sm leading-relaxed">
+  <FaMapMarkerAlt className="text-yellow-400 mt-1 text-lg" />
+  <a
+    href="https://www.google.com/maps?q=12.909186,77.575219"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="hover:underline text-gray-200"
+  >
+    <strong>SLV Enterprises</strong> C/O Sri Vinayaka Fabrics, <br />
+    No. 6, Indra Complex, 1st Floor, Sarakki Main Road, <br />
+    JP Nagar 1st Phase, Bangalore – 560068
+  </a>
+</li>
+
           </ul>
         </div>
 
