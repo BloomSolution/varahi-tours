@@ -60,14 +60,6 @@ const HeroSlider = () => {
                   {slide.subtitle}
                 </p>
 
-                {/* <Link
-                  to="/services"
-                  data-aos="zoom-in"
-                  data-aos-delay="400"
-                  className="bg-[#f6a623] hover:bg-[#e5971d] text-white px-6 py-3 rounded-full font-semibold transition"
-                >
-                  Explore Services
-                </Link> */}
               </div>
             </div>
           </div>

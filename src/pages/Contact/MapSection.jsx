@@ -1,22 +1,4 @@
 
-// import React from "react";
-
-// export default function MapSection() {
-//   return (
-//     <section id="map" className="w-full h-[400px]">
-//       <iframe
-//         title="Restaurant Location"
-//         src=""
-//         className="w-full h-full border-0 rounded-none"
-//         allowFullScreen
-//         loading="lazy"
-//         referrerPolicy="no-referrer-when-downgrade"
-//       ></iframe>
-//     </section>
-//   );
-// }
-
-
 import React from "react";
 
 export default function MapSection() {

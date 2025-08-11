@@ -79,12 +79,7 @@ const TopServices = () => {
       className=" py-20 px-4 md:px-16 font-['Abril_Fatface']"
       id="services"
     >
-      {/* <div className="max-w-6xl mx-auto text-center mb-14" data-aos="fade-down">
-        <h2 className="text-3xl md:text-5xl font-bold text-center mb-2 font-['Dancing_Script'] text-[#cda45e]">Our Services</h2>
-        <p className="text-lg text-gray-300">
-           Discover our reliable van rental services for safe, stylish, and stress-free outstation journeys.
-        </p>
-      </div> */}
+      
 
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-10 font-['Dancing_Script'] text-[#cda45e]">
         Your Comfort, Our Priority – Services We Offer

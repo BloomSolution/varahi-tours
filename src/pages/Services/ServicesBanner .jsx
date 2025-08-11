@@ -1,37 +1,3 @@
-// // src/components/ServicesBanner.jsx
-// import React from "react";
-// import "aos/dist/aos.css";
-
-// const ServicesBanner = () => {
-//   return (
-//     <section
-//       className="relative bg-fixed h-[80vh] flex items-center justify-center bg-cover bg-center text-white font-['Abril_Fatface']"
-//       style={{
-//         backgroundImage:
-//           "url('i4.jpg')",
-//       }}
-//     >
-//       <div className="absolute inset-0 bg-black/60"></div>
-//       <div
-//         className="relative z-10 text-center px-4"
-//         data-aos="fade-up"
-//         data-aos-duration="1000"
-//       >
-//         <h1 className="text-4xl md:text-6xl font-bold drop-shadow-lg font-['Dancing_Script'] text-[#cda45e]">
-//           Our Services
-//         </h1>
-//         <p className="mt-4 text-lg md:text-xl text-gray-200">
-//           Discover luxury, comfort & style across all our travel offerings.
-          
-//         </p>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default ServicesBanner;
-
-
 
 
 import React from "react";

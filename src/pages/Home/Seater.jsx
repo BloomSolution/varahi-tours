@@ -32,14 +32,12 @@ const facilities = [
 const Seater = () => {
   return (
     <section
-    //  className="bg-[#111827] text-white py-16 px-6 md:px-12" 
     className="py-16 bg-gradient-to-br from-black/90 via-[#c40707] to-black/90 text-white px-6 md:px-12 "
      id="urbania">
       <div className="max-w-6xl mx-auto" data-aos="fade-up">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-6 font-['Dancing_Script'] text-[#cda45e]">
           Rent Urbania Luxury Vans in Bangalore
         </h2>
-        {/* <h2 className="text-3xl md:text-5xl font-bold  font-['Dancing_Script'] text-[#cda45e]">Urbania Features</h2> */}
         <p className="text-center text-gray-300 mb-10 max-w-3xl mx-auto font-['Abril_Fatface'] text-lg">
           At Rent Urbania Bangalore, we offer world-class luxury and comfort travel
           with our new Force Urbania Luxury Vans. Hire our 10, 13, 15 or 17 seater A/C vehicles

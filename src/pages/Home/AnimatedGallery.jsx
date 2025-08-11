@@ -14,8 +14,6 @@ const PremiumTempoGallery = () => {
   const galleryItems = [
     {
       id: 1,
-      // image:
-      //   "https://www.onlinebusbookingindia.com/uploads/66040_7-Seater-Tempo-Traveller-in-Delhi.jpg",
        image:
         "https://tse3.mm.bing.net/th/id/OIP.sh95vt28A38HZg-UlL4EZwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
       title: "7 Seater Executive",
@@ -26,7 +24,6 @@ const PremiumTempoGallery = () => {
     },
     {
       id: 2,
-      // image: "https://busprestige.pl/wp-content/uploads/2018/09/BP.313_MAN_BUS_PRODUCER_MAN_TGEIMG_5189.jpg",
       image: "https://www.luxurytempotraveller.com/assets/images/10-seater-force-urbania-luxury-van-with-1x1-modified-seats-on-rent.jpg",
       title: "8 Seater Business",
       description: "Perfect blend of comfort and efficiency",
@@ -36,7 +33,6 @@ const PremiumTempoGallery = () => {
     },
     {
       id: 3,
-      // image: "https://www.renttempotraveller.com/tempo-images/9seatermaharaja1x1.jpg",
       image: "https://www.urbaniahire.com/jap/media/uploads/9-seater-premium-urbania2.webp",
       title: "9 Seater Maharaja",
       description: "Royal comfort for discerning travelers",

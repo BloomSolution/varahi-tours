@@ -38,6 +38,12 @@ const vehicleData = [
     osKm: 45,
     osBata: 700,
   },
+  {
+    type: "Available for 50 Seater A/c & Non A/c Tourist Bus",
+    img: "service.jpg", // Replace with actual image link
+    rate: "Contact for Price",
+    
+  },
 ];
 
 const UrbaniaRateCard = () => {
@@ -58,13 +64,13 @@ const UrbaniaRateCard = () => {
             <img
               src={item.img}
               alt={item.type}
-              className="w-full h-58 md:h-78  object-cover"
+              className="w-full h-58 md:h-78  object-fill "
             />
             <div className="p-5">
               <h3 className="text-xl font-semibold  mb-3">
                 {item.type}
               </h3>
-              <ul className=" text-gray-300 space-y-1">
+              {/* <ul className=" text-gray-300 space-y-1">
                 <li>
                   <span className="font-medium text-white">8 Hrs / 80 KM:</span> ₹{item.rate}
                 </li>
@@ -83,7 +89,38 @@ const UrbaniaRateCard = () => {
                 <li>
                   <span className="font-medium text-white">Outstation Coverage:</span> 300 KM
                 </li>
-              </ul>
+              </ul> */}
+              <ul className="text-gray-300 space-y-1">
+  {item.rate && (
+    <li>
+      <span className="font-medium text-white">8 Hrs / 80 KM:</span> ₹{item.rate}
+    </li>
+  )}
+  {item.extraHour && (
+    <li>
+      <span className="font-medium text-white">Extra Hour:</span> ₹{item.extraHour}
+    </li>
+  )}
+  {item.extraKm && (
+    <li>
+      <span className="font-medium text-white">Extra KM:</span> ₹{item.extraKm}
+    </li>
+  )}
+  {item.osKm && (
+    <li>
+      <span className="font-medium text-white">O/S per KM:</span> ₹{item.osKm}
+    </li>
+  )}
+  {item.osBata && (
+    <li>
+      <span className="font-medium text-white">O/S Bata:</span> ₹{item.osBata}
+    </li>
+  )}
+  <li>
+    <span className="font-medium text-white">Outstation Coverage:</span> 300 KM
+  </li>
+</ul>
+
             </div>
             <div className="text-center  mb-4 flex justify-center">
   <a

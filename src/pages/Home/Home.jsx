@@ -19,11 +19,9 @@ import Hero from "./Hero";
 import WhyChoose from "./WhyChoose";
 import Popular from "./Popular";
 import Testimonials from "./Testimonials";
-import BookingForm from "../../components/BookingForm";
 import UrbaniaFeatures from "./UrbaniaFeatures";
 import Seater from "./Seater";
 import AnimatedGallery from "./AnimatedGallery";
-import AmenitiesSection from "./AmenitiesSection";
 
 const Home = () => {
   return (
@@ -35,8 +33,6 @@ const Home = () => {
       <UrbaniaFeatures/>
       <Testimonials/>
       <AnimatedGallery/>
-      {/* <BookingForm/> */}
-      {/* <AmenitiesSection/> */}
     </div>
   );
 };
